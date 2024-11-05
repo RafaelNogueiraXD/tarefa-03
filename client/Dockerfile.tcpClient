@@ -1,0 +1,13 @@
+FROM python:3.12.7
+
+# Define o diretório de trabalho
+WORKDIR /app
+
+# Copia o código para o diretório de trabalho
+COPY app.py /app
+
+# Instala o Flask e quaisquer outras dependências
+RUN pip install flask requests
+
+# Executa a aplicação
+CMD ["python", "app.py"]

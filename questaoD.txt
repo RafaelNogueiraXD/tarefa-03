@@ -1,0 +1,3 @@
+TCP é ideal para aplicações onde a entrega confiável e a ordem dos dados são essenciais, como transferências de arquivos, emails e aplicações web.
+
+UDP é adequado para aplicações onde a velocidade e a baixa latência são mais importantes que a confiabilidade, como jogos online, streaming de mídia e serviços de DNS.
